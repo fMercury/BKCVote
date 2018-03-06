@@ -74,3 +74,5 @@ Run `npm run build` to build the production version.
 
 ### Donations
 
+pay attention with index.js (in BKCVote/node_modules/bitcoire-mnemonic)
+in case thar appear "Error: More than one instance of bitcore-lib found. Please make sure to require bitcore-lib and check that submodules do not also include their own bitcore-lib dependency" just delete le line for export!
