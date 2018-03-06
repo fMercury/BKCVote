@@ -48,7 +48,7 @@ This task will take all the contracts from the ./contracts folder and add copy t
 
 1. Remove all content on blockchain/geth folder, generate the accounts, init the genesis block and start mining:
 
-`npm bkc-clean && npm bkc-accounts 10 && npm bkc-init && npm bkc-mine`
+`npm run bkc-clean && npm run bkc-accounts 10 && npm run bkc-init && npm run bkc-mine`
 
 2. Go to the simulate view and put a reasonable value to blockStart and blockEnd, you only will be able to add the voters before blockStart equals actual block and you will be able to do the election between blockStart and blockEnd, so choose your values with precaution, the actual blockNumber will be displayed on the right side of the navbar.
 
@@ -74,6 +74,3 @@ Run `npm run build` to build the production version.
 
 ### Donations
 
-Bictoin:  1Cf3mkzNicq57hqP9jMEGbTfvtJnMfAKe6
-
-Ethereum: 0x089a9b6915f3ddf987010A0a56045469DBaACB2C
